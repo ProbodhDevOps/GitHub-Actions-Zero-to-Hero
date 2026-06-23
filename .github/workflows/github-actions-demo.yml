@@ -1,6 +1,6 @@
 name: first github action
 run-name: first one
-on: push
+on: pull_request
 jobs:
   hello:
     runs-on: ubuntu-latest
